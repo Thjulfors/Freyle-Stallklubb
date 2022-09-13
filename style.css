@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Head */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: center;
+  background-color: red;
+}
+
+h1 {
+  font-style: italic;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+}
+.nav-bar,
+li {
+  padding: 1rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-atag {
+  background-color: red;
+  cursor: pointer;
+}
+
+.dropdown-listitem {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: red;
+  z-index: 1;
+  padding: 10px;
+}
+.dropdown-content a {
+  margin: 10px;
+  float: left;
+}
+
+.dropdown-content a:hover {
+  background-color: red;
+}
+
+.dropdown-listitem:hover .dropdown-content {
+  display: block;
+}
+
+/* Section */
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.styrelsen {
+  flex-direction: column;
+  padding: 10px;
+}
+
+.horses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-horses {
+  margin: 1em;
+}
+
+.area {
+  display: flex;
+}
+
+.kontakta-oss {
+  display: flex;
+}
+
+.kontakt {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 5px 10px 8px black;
+}
+
+.frontpage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.frontpage img {
+  margin: 5px;
+}
+
+.start-riding {
+  display: flex;
+  flex-direction: column;
+}
